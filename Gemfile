@@ -17,6 +17,9 @@ gem "puma", ">= 5.0"
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem "jsbundling-rails"
 
+#css bundling
+gem 'cssbundling-rails'
+
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
@@ -65,3 +68,20 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+
+gem 'nokogiri', '>= 1.16.7'
+
+gem 'prawn'
+gem 'httparty'
+
+#app security gems
+gem 'brakeman', require: false
+gem 'bundler-audit', require: false
+gem 'rack-protection'
+
+#debugging:
+gem 'pry'
+
+#set up CORS
+gem 'rack-cors', require: 'rack/cors'

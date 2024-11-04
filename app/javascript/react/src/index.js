@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
-import Welcome from './components/Welcome';  // Adjust based on your file structure
+import Welcome from './components/Welcome'; 
 
 const rootElement = document.getElementById('welcome');
 if (rootElement) {
